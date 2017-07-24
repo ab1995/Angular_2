@@ -3,6 +3,6 @@ import {AdvertisementForm} from './component/AdvertisementForm/AdvertisementForm
 
 @Component({
   selector: 'my-app',
-  template: `<myForm></myForm>`,
+  template: ``,
 })
 export class AppComponent  { name = 'Angular'; }
