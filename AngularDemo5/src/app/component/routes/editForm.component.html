@@ -1,0 +1,39 @@
+<div class="container">
+
+    <h1>{{title}}</h1><br>
+
+    <form [formGroup]="adForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" formControlName="name" class="form-control" [value]="ad.name">
+                <small [hidden]="adForm.controls.name.valid || (adForm.controls.name.pristine && !submitted)">
+                    Name is required (minimum 3 characters).
+                </small>
+                <small [hidden]="adForm.controls.name.valid || (adForm.controls.name.pristine && !submitted)">
+                    Maximum 8 characters.
+                </small>
+        </div>
+
+        <div class="form-group">
+            <label>Category</label>
+            <select  class="form-control" formControlName="category" value={{ad.category}}>
+                <option *ngFor="let item of items; let i=index" >{{item}}</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label>Description</label>
+            <input type="text" class="form-control" value={{ad.description}} formControlName="description"  placeholder="Product Description">
+            <small [hidden]="adForm.controls.description.valid || (adForm.controls.description.pristine && !submitted)">
+                Name is required (minimum 3 characters).
+            </small>
+            <small [hidden]="adForm.controls.description.valid || (adForm.controls.description.pristine && !submitted)">
+                Maximum 50 characters.
+            </small>            
+        </div>
+        <button  type="submit" class="btn btn-primary" [disabled]="!adForm.valid">Update</button>
+        <button  (click)="onClickCancel()" class="btn btn-primary" >Cancel</button>
+
+    </form>
+
+</div>

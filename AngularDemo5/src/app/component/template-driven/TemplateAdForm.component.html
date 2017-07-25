@@ -1,0 +1,35 @@
+<div class="container">
+
+    <h1>{{title}}</h1><br>
+
+    <form #adForm="ngForm" (ngSubmit)="onSubmit(adForm.value)">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" class="form-control" required minlength="3" placeholder="Name" #nameModelRef="ngModel"  ngModel>
+            <div *ngIf="nameModelRef.errors && nameModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!nameModelRef.errors.required" >Please enter your Name </div>
+                <div [hidden]="!nameModelRef.errors.minlength"> Name length should be minimum 3 characters</div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Category</label>
+            <select  class="form-control" >
+                <option *ngFor="let item of items; let i=index" >{{item}}</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Description</label>
+            <input type="text" name="description" class="form-control" required minlength="3" placeholder="Product Description" #descModelRef="ngModel"  ngModel>
+            <div *ngIf="descModelRef.errors && descModelRef.touched" class="alert alert-danger">
+                <div [hidden]="!descModelRef.errors.required" >Please enter Product Description </div>
+                <div [hidden]="!descModelRef.errors.minlength"> Product Description should be minimum 10 characters</div>
+            </div>
+        </div>
+
+        <button type="Submit" class="btn btn-primary" [disabled]="!adForm.form.valid" >Post</button>
+
+    </form>
+
+</div>

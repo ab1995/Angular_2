@@ -1,0 +1,24 @@
+<div class="container"> 
+    <!--input type="text" [(ngModel)]="queryString" placeholder="Type to Search..."-->
+    <input type="text" #searchText [(ngModel)]="queryString" placeholder="Type to Search...">
+
+    <br><br>
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Action1</th>
+            <th>Action2</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let ad of getAdArrayFromService() | FilterPipe:searchText.value">
+                <td>{{ad.name}}</td>
+                <td>{{ad.category}}</td>
+                <td>{{ad.description}}</td>
+                <td><a (click)="deleteAd(ad)" href="#" >Delete</a></td>
+                <td><a (click)="editAd(ad)" >Edit</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

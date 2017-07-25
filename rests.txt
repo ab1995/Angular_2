@@ -1,0 +1,295 @@
+
+//============================================Categories===============================//
+
+{
+    "data": {
+        "itemList": [
+            {
+                "id": "5976c32acd280c999c8f3751",
+                "name": "Cloths"
+            },
+            {
+                "id": "5976c32acd280c999c8f3752",
+                "name": "Furniture"
+            },
+            {
+                "id": "5976c32acd280c999c8f3753",
+                "name": "Mobile"
+            },
+            {
+                "id": "5976c32bcd280c999c8f3754",
+                "name": "Real Estate"
+            }
+        ]
+    }
+}
+
+
+
+
+Received products:  {"data":{"itemList":[{"id":"5976c32acd280c999c8f3751","name":"Cloths"},{"id":"5976c32acd280c999c8f3752","name":"Furniture"},{"id":"5976c32acd280c999c8f3753","name":"Mobile"},{"id":"5976c32bcd280c999c8f3754","name":"Real Estate"}]}}
+
+//============================================Posts===============================//
+
+{
+    "data": {
+        "mypostList": [
+            {
+                "id": "5976f2bc1c0edf75e327990f",
+                "userId": "gd",
+                "name": "Lenovo all-in-one",
+                "title": "PC sale",
+                "description": "intel core 3",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": [],
+                "createdDate": 1500967612071,
+                "lastUpdatedDate": 1500967612071,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            }
+        ]
+    }
+}
+
+
+//============================================Actions===============================//
+{
+    "data": {
+        "actionList": [
+            {
+                "id": "5976c331cd280c999c8f3755",
+                "name": "Update"
+            },
+            {
+                "id": "5976c332cd280c999c8f3756",
+                "name": "Delete"
+            }
+        ]
+    }
+}
+//============================================Search===============================//
+			http://192.168.3.144:9000/posts/search?searchText=mobile
+//============================================Search===============================//
+
+
+{
+    "data": {
+        "advertiseList": [
+            {
+                "id": "59770e011c0edf75e329cea0",
+                "userId": "Vikrant",
+                "name": "Vikrant",
+                "title": "laptop sale",
+                "description": "intel core 3",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500974593706,
+                "lastUpdatedDate": 1500974593706,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "59770c271c0edf75e329ce9e",
+                "userId": "Vikrant",
+                "name": "Vikrant",
+                "title": "laptop sale",
+                "description": "intel core 3",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500974119872,
+                "lastUpdatedDate": 1500974119872,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "59770b901c0edf75e329ce9d",
+                "userId": "pooja",
+                "name": "hfd",
+                "title": "sdgrh",
+                "description": "hfd",
+                "categoryId": "5976c32acd280c999c8f3752",
+                "category": "Furniture",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973968758,
+                "lastUpdatedDate": 1500973968758,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "59770b901c0edf75e329ce9c",
+                "userId": "pooja",
+                "name": "hfd",
+                "title": "sdgrh",
+                "description": "hfd",
+                "categoryId": "5976c32acd280c999c8f3751",
+                "category": "Cloths",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973968720,
+                "lastUpdatedDate": 1500973968720,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "59770b661c0edf75e329ce9b",
+                "userId": "Vikrant",
+                "name": "Vikrant",
+                "title": "laptop sale",
+                "description": "intel core 3",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973926515,
+                "lastUpdatedDate": 1500973926515,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "597709e81c0edf75e329ce9a",
+                "userId": "aishwarya",
+                "name": "Anand Kulkarni",
+                "title": "laptop sale",
+                "description": "intel core 3",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973544707,
+                "lastUpdatedDate": 1500973544707,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "597709ae1c0edf75e329ce99",
+                "userId": "Vikrant",
+                "name": "Vikrant",
+                "title": "laptop sale",
+                "description": "intel core 3",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973486049,
+                "lastUpdatedDate": 1500973486049,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "597708f61c0edf75e329ce98",
+                "userId": "prajakta",
+                "name": "Anand Kulkarni",
+                "title": "laptop sale",
+                "description": "intel core 3",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973302041,
+                "lastUpdatedDate": 1500973302041,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "597708461c0edf75e329ce97",
+                "userId": "shruti",
+                "name": "snehal",
+                "title": "sofa",
+                "description": "2 year old",
+                "categoryId": "5976c32acd280c999c8f3752",
+                "category": "Furniture",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973126672,
+                "lastUpdatedDate": 1500973126672,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            },
+            {
+                "id": "597707fe1c0edf75e329ce96",
+                "userId": "shruti",
+                "name": "shruti",
+                "title": "xiaomi",
+                "description": "Mobile",
+                "categoryId": "5976c32acd280c999c8f3753",
+                "category": "Mobile",
+                "status": "Open",
+                "photo_1": null,
+                "photo_2": null,
+                "photo_3": null,
+                "photos": null,
+                "createdDate": 1500973054664,
+                "lastUpdatedDate": 1500973054664,
+                "replies": [],
+                "isOwnerOfAd": false,
+                "replyCount": 0
+            }
+        ],
+        "itemList": [
+            {
+                "id": "5976c32acd280c999c8f3751",
+                "name": "Cloths"
+            },
+            {
+                "id": "5976c32acd280c999c8f3752",
+                "name": "Furniture"
+            },
+            {
+                "id": "5976c32acd280c999c8f3753",
+                "name": "Mobile"
+            },
+            {
+                "id": "5976c32bcd280c999c8f3754",
+                "name": "Real Estate"
+            }
+        ]
+    }
+}
+
